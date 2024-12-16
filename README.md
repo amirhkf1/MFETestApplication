@@ -6,11 +6,17 @@ Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://
 
 Remote Apps:
 $ cd mfe1
+
 $ pnpm install
+
 $ pnpm build
+
 $ pnpm run preview --port=3001 --host
+
 (Do the same for mfe2 via port 3002)
 
 Host App:
+
 $ pnpm install
+
 $ pnpm dev --port=3000
